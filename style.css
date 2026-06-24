@@ -16,15 +16,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
-    background-color: #ffffff;
+    padding: 10px 10%;
+    background-color: #302222;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .navbar .logo {
-    font-size: 24px;
+    align-items: center;
+    font-size: 18px;
     font-weight: bold;
-    color: #2c3e50;
+    color: #ffffff;
 }
 
 .nav-links {
@@ -38,24 +39,24 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #555;
+    color: #ffffff;
     font-weight: 600;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #f3c11e;
 }
 li a, .dropbtn {
   display: inline-block;
-  color: white;
+  color: #302222;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(21, 49, 3);
+  
 }
 
 li.dropdown {
@@ -65,21 +66,22 @@ li.dropdown {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #302222;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #493535
+    ;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -113,8 +115,8 @@ li.dropdown {
 
 .btn {
     display: inline-block;
-    background-color: #3498db;
-    color: white;
+    background-color: #f3c11e;
+    color: black;
     padding: 12px 30px;
     text-decoration: none;
     border-radius: 5px;
@@ -123,7 +125,7 @@ li.dropdown {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #8a742e;
 }
 
 /* Features Section */
@@ -143,7 +145,9 @@ li.dropdown {
     text-align: center;
     background: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.04),
+    0 8px 24px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s;
 }
 
@@ -160,7 +164,7 @@ li.dropdown {
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #2c3e50;
+    background-color: #302222;
     color: white;
     font-size: 14px;
 }

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kare-Kare — A Filipino Heirloom</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-brand">Kainan ng Tatlong Itlog</a>
+  <ul class="nav-links">
+    <li><a href="../Simple Website.html">Home</a></li>
+    <li><a href="#ingredients">About</a></li>
+    <li><a href="#method">Healty Recipe</a></li>
+    <li><a href="#tips">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-eyebrow">Filipino Heirloom</div>
+    <h1 class="hero-title">
+      Kare-<em>Kare</em>
+    </h1>
+    <p class="hero-subtitle">Peanut-braised oxtail &amp; vegetables</p>
+    <p class="hero-desc">
+      A dish of deep roots — slow-cooked oxtail bathed in a rich golden peanut broth, 
+      served alongside a sharp bagoong to cut through the velvet. This is Sunday food. 
+      This is fiesta food. This is home.
+    </p>
+    <div class="hero-meta">
+      <div class="meta-item">
+        <span class="meta-label">Prep time</span>
+        <span class="meta-value">30 min</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Cook time</span>
+        <span class="meta-value">3–4 hrs</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Serves</span>
+        <span class="meta-value">6–8</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-label">Difficulty</span>
+        <span class="meta-value">Medium</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <!-- decorative dots -->
+    <div class="pattern-dot" style="width:300px;height:300px;top:-80px;right:-80px;"></div>
+    <div class="pattern-dot" style="width:180px;height:180px;bottom:60px;left:40px;"></div>
+    <!-- plate illustration -->
+    <svg class="hero-plate" viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg">
+      <!-- outer rim shadow -->
+      <circle cx="190" cy="195" r="175" fill="rgba(0,0,0,0.25)"/>
+      <!-- plate rim -->
+      <circle cx="190" cy="190" r="174" fill="#2A1A0E"/>
+      <circle cx="190" cy="190" r="171" fill="none" stroke="#B8882A" stroke-width="1" opacity="0.4"/>
+      <circle cx="190" cy="190" r="164" fill="#1E1208"/>
+      <circle cx="190" cy="190" r="155" fill="none" stroke="#B8882A" stroke-width="0.5" opacity="0.25"/>
+      <!-- peanut broth base -->
+      <ellipse cx="190" cy="195" rx="143" ry="138" fill="#C9741A" opacity="0.85"/>
+      <ellipse cx="190" cy="195" rx="140" ry="135" fill="#D4821E"/>
+      <!-- texture swirls -->
+      <ellipse cx="175" cy="185" rx="60" ry="40" fill="#C06B18" opacity="0.5"/>
+      <ellipse cx="210" cy="210" rx="50" ry="35" fill="#E0951F" opacity="0.3"/>
+      <!-- oxtail pieces -->
+      <ellipse cx="170" cy="175" rx="32" ry="22" fill="#3D1F0A" rx="6"/>
+      <ellipse cx="215" cy="165" rx="28" ry="18" fill="#4A2810"/>
+      <ellipse cx="185" cy="210" rx="35" ry="20" fill="#3A1C09"/>
+      <!-- eggplant -->
+      <ellipse cx="230" cy="200" rx="20" ry="12" fill="#4A1D6B" transform="rotate(-15,230,200)"/>
+      <ellipse cx="235" cy="195" rx="18" ry="10" fill="#5E2585" transform="rotate(-15,235,195)"/>
+      <!-- banana blossom / puso -->
+      <ellipse cx="155" cy="215" rx="18" ry="12" fill="#D4A017" transform="rotate(20,155,215)"/>
+      <!-- string beans -->
+      <rect x="148" y="152" width="60" height="6" rx="3" fill="#3A6B1A" transform="rotate(-20,178,155)"/>
+      <rect x="210" y="220" width="55" height="5" rx="2.5" fill="#2D5614" transform="rotate(30,237,222)"/>
+      <!-- pechay / bok choy -->
+      <ellipse cx="225" cy="232" rx="22" ry="14" fill="#2A5E20" transform="rotate(10,225,232)"/>
+      <ellipse cx="222" cy="228" rx="16" ry="9" fill="#3A7A2A" transform="rotate(10,222,228)"/>
+      <!-- highlight on broth -->
+      <ellipse cx="155" cy="162" rx="30" ry="12" fill="white" opacity="0.06" transform="rotate(-10,155,162)"/>
+      <!-- annatto color swirl highlight -->
+      <path d="M140,185 Q165,170 195,178 Q220,185 230,200" stroke="#E8A030" stroke-width="2.5" fill="none" opacity="0.5"/>
+    </svg>
+    <span class="hero-visual-label">Illustrated in gold & earth</span>
+  </div>
+</section>
+
+<!-- STORY -->
+<section class="section-story" id="story">
+  <div style="display:flex;flex-direction:column;align-items:center;gap:2rem;padding-top:0.5rem;">
+    <span class="section-label">History</span>
+    <div class="gold-divider-dot"></div>
+  </div>
+  <div class="story-content">
+    <h2 class="story-heading">
+      Born of a <em>kingdom's</em> table
+    </h2>
+    <div class="story-body">
+      <p>Kare-Kare is believed to trace its origins to the royal Kapampangan kitchens of Pampanga — a province long regarded as the culinary heartland of the Philippines. Some food historians link it to the Moro soldiers who served the Spanish colonial army, whose curry-like dishes evolved over generations into what we now know.</p>
+      <p>The name itself is thought to be a reduplication of "kari," the Tamil and Malay word for curry. Yet Kare-Kare bears no spice heat — instead, it is defined by the quiet richness of ground toasted peanuts, thickened with rice flour, fragrant with annatto.</p>
+      <p>What makes it singular is the pairing: the mild, unctuous stew arrives at the table alongside bagoong alamang — fermented shrimp paste — whose pungent salinity electrifies every bite. Together they are not just complementary; they are necessary to each other.</p>
+      <p>Today Kare-Kare appears at every fiesta, every family reunion, every occasion that demands a dish cooked with real time and intention. It is patience made edible.</p>
+    </div>
+  </div>
+</section>
+
+<!-- INGREDIENTS -->
+<section class="section-ingredients" id="ingredients">
+  <div class="ingredients-header">
+    <h2 class="ingredients-title">Ingredients</h2>
+    <span class="ingredients-subtitle">For 6–8 persons</span>
+  </div>
+
+  <div class="serving-toggle">
+    <button class="serving-btn" onclick="changeServing(-1)" aria-label="Fewer servings">−</button>
+    <span class="serving-count" id="serving-display">6</span>
+    <button class="serving-btn" onclick="changeServing(1)" aria-label="More servings">+</button>
+    <span class="serving-label">servings</span>
+  </div>
+
+  <div class="ingredients-grid">
+    <div class="ing-group">
+      <p class="ing-group-title">The braise</p>
+      <ul class="ing-list" id="main-list">
+        <li class="ing-item"><span class="ing-name">Oxtail, cut into segments</span><span class="ing-amount" data-base="1.5" data-unit="kg">1.5 kg</span></li>
+        <li class="ing-item"><span class="ing-name">Tripe (optional)</span><span class="ing-amount" data-base="0.5" data-unit="kg">500 g</span></li>
+        <li class="ing-item"><span class="ing-name">Garlic, crushed</span><span class="ing-amount" data-base="8" data-unit="cloves">8 cloves</span></li>
+        <li class="ing-item"><span class="ing-name">White onion, quartered</span><span class="ing-amount" data-base="1" data-unit="large">1 large</span></li>
+        <li class="ing-item"><span class="ing-name">Fish sauce (patis)</span><span class="ing-amount" data-base="3" data-unit="tbsp">3 tbsp</span></li>
+        <li class="ing-item"><span class="ing-name">Water or beef stock</span><span class="ing-amount" data-base="2.5" data-unit="L">2.5 L</span></li>
+      </ul>
+    </div>
+
+    <div class="ing-group">
+      <p class="ing-group-title">The peanut sauce</p>
+      <ul class="ing-list" id="sauce-list">
+        <li class="ing-item"><span class="ing-name">Roasted peanuts, ground</span><span class="ing-amount" data-base="300" data-unit="g">300 g</span></li>
+        <li class="ing-item"><span class="ing-name">Peanut butter (unsweetened)</span><span class="ing-amount" data-base="4" data-unit="tbsp">4 tbsp</span></li>
+        <li class="ing-item"><span class="ing-name">Annatto seeds (atsuete)</span><span class="ing-amount" data-base="2" data-unit="tbsp">2 tbsp</span></li>
+        <li class="ing-item"><span class="ing-name">Toasted rice flour</span><span class="ing-amount" data-base="3" data-unit="tbsp">3 tbsp</span></li>
+        <li class="ing-item"><span class="ing-name">Banana blossoms (puso)</span><span class="ing-amount" data-base="2" data-unit="cups">2 cups</span></li>
+      </ul>
+    </div>
+
+    <div class="ing-group">
+      <p class="ing-group-title">Vegetables &amp; condiment</p>
+      <ul class="ing-list" id="veg-list">
+        <li class="ing-item"><span class="ing-name">Chinese eggplant</span><span class="ing-amount" data-base="3" data-unit="pcs">3 pcs</span></li>
+        <li class="ing-item"><span class="ing-name">Long string beans (sitaw)</span><span class="ing-amount" data-base="2" data-unit="bundles">2 bundles</span></li>
+        <li class="ing-item"><span class="ing-name">Bok choy (pechay)</span><span class="ing-amount" data-base="1" data-unit="head">1 head</span></li>
+        <li class="ing-item"><span class="ing-name">Bagoong alamang (sautéed)</span><span class="ing-amount" data-base="0.5" data-unit="cup">½ cup</span></li>
+        <li class="ing-item"><span class="ing-name">Banana blossom, blanched</span><span class="ing-amount" data-base="1" data-unit="cup">1 cup</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="section-method" id="method">
+  <div class="method-header">
+    <h2 class="method-title">The Method</h2>
+    <p class="method-intro">A recipe that rewards patience. Begin a day before for the deepest flavor, or give it an unhurried afternoon.</p>
+  </div>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-number">01</div>
+      <div class="step-content">
+        <h3 class="step-title">Blanch the oxtail</h3>
+        <p class="step-body">Place oxtail (and tripe, if using) in a large pot with cold water. Bring to a rolling boil and cook for 5 minutes. Drain and rinse each piece under cold running water. This removes impurities and ensures a clean, clear broth.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">02</div>
+      <div class="step-content">
+        <h3 class="step-title">Build the broth</h3>
+        <p class="step-body">Return blanched oxtail to the pot. Add garlic, onion, patis, and enough water or stock to cover by 5 cm. Bring to a boil, skim any foam, then reduce heat to a gentle simmer. Cook low and slow for 2.5 to 3.5 hours, until the meat is tender enough to yield easily to a fork but still holds its shape.</p>
+        <div class="step-tip">Reserve all the braising liquid — this becomes the base of your sauce. You should have at least 1.5 liters when done.</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">03</div>
+      <div class="step-content">
+        <h3 class="step-title">Draw the annatto color</h3>
+        <p class="step-body">In a small saucepan, warm 3 tablespoons of oil over medium heat. Add annatto seeds and stir gently for 2 minutes — the oil will bloom into a vivid orange-red. Strain out the seeds, discarding them, and reserve the tinted oil. This is what gives Kare-Kare its distinctive golden glow.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">04</div>
+      <div class="step-content">
+        <h3 class="step-title">Sauté the aromatics</h3>
+        <p class="step-body">In your largest wide pot or kawali, heat the annatto oil over medium-high heat. Sauté onion until translucent, about 3 minutes. Add garlic and cook until fragrant, 1 minute more. Pour in 1.5 liters of the reserved braising liquid and bring to a simmer.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">05</div>
+      <div class="step-content">
+        <h3 class="step-title">Build the peanut sauce</h3>
+        <p class="step-body">Stir in the ground roasted peanuts and peanut butter. Mix the toasted rice flour with a ladleful of warm broth until smooth, then add to the pot as a thickener. Simmer on low for 15 minutes, stirring often, until the sauce coats the back of a spoon. Season with patis and salt to taste.</p>
+        <div class="step-tip">Taste as you go: the sauce should be rich and mildly nutty with a savory depth — not sweet. Adjust with more patis if it needs salt or character.</div>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">06</div>
+      <div class="step-content">
+        <h3 class="step-title">Cook the vegetables</h3>
+        <p class="step-body">Add the braised oxtail to the peanut sauce. In a separate pot of salted boiling water, blanch each vegetable separately: string beans (3 min), eggplant (4 min), pechay (1 min), banana blossom (2 min). Transfer each to ice water immediately to preserve color and texture. Add all blanched vegetables to the stew just before serving — never boil them in the sauce or they will go limp.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">07</div>
+      <div class="step-content">
+        <h3 class="step-title">Serve with bagoong</h3>
+        <p class="step-body">Ladle generously into wide bowls or serve family-style in the pot. Present alongside warm steamed rice and a ramekin of sautéed bagoong alamang. The bagoong is not optional — it is the counterpoint that makes every spoonful complete.</p>
+        <div class="step-tip">Sauté the bagoong with garlic, a pinch of sugar, and a splash of vinegar 5 minutes before serving for the best result.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIPS -->
+<section class="section-tips" id="tips">
+  <h2 class="tips-title">Before you begin — a few notes from the kitchen</h2>
+  <div class="tips-grid">
+    <div class="tip-card">
+      <p class="tip-heading">Toast your own peanuts</p>
+      <img src="peanuts.webp" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Pre-ground peanuts from a jar lack the depth of freshly toasted ones. Roast raw peanuts in a dry pan until golden-brown and fragrant, cool completely, then pulse in a blender until the texture of fine sand. The difference is significant.</p>
+    </div>
+    <div class="tip-card">
+      <p class="tip-heading">Low and slow wins</p>
+      <img src="oxtails.jfif" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Rushing the braise produces tough, chewy oxtail. A pressure cooker can shorten the process to 45 minutes, but a traditional pot — given 3 unrushed hours — produces a silkier, more deeply flavored result. If you have time, use it.</p>
+    </div>
+    <div class="tip-card">
+      <p class="tip-heading">The rice flour secret</p>
+      <img src="riceflour.jpg" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Toast raw rice in a dry pan until it turns light golden, then grind. This thickener adds a distinct nuttiness that cornstarch cannot replicate. Mix it with cold broth before adding to the hot pot to avoid lumps.</p>
+    </div>
+    <div class="tip-card">
+      <p class="tip-heading">Bagoong makes the dish</p>
+      <img src="kare-kare.jpg" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Do not serve Kare-Kare without bagoong. The stew's richness needs the fermented shrimp paste's saltiness and funk to come alive. Sauté it briefly with garlic before serving — raw bagoong is too sharp.</p>
+    </div>
+    <div class="tip-card">
+      <p class="tip-heading">It improves overnight</p>
+      <img src="kare-kare-2.jfif" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Like most braises, Kare-Kare is better the next day. The peanut sauce thickens and deepens in flavor after resting in the refrigerator. Add the vegetables fresh when reheating — never store them in the sauce overnight.</p>
+    </div>
+    <div class="tip-card">
+      <p class="tip-heading">Vegetable timing matters</p>
+      <img src="veg-tray.jpg" alt="Kare-Kare dish" style="width: 100%; height: auto;">
+      <p class="tip-body">Always blanch vegetables separately and briefly. Bok choy wilts in under a minute; eggplant needs 3–4. Adding them to the simmering sauce instead will turn them into mush. Blanch, shock in ice water, add at the last moment.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-brand">Kare-Kare</div>
+  <div class="footer-note">
+    A Kapampangan classic, handed down with care.<br>
+    Serve with love — and always with bagoong.
+  </div>
+</footer>
+
+<script>
+  let servings = 6;
+  const baseServings = 6;
+
+  function changeServing(delta) {
+    servings = Math.max(1, Math.min(20, servings + delta));
+    document.getElementById('serving-display').textContent = servings;
+    const ratio = servings / baseServings;
+
+    document.querySelectorAll('[data-base]').forEach(el => {
+      const base = parseFloat(el.dataset.base);
+      const unit = el.dataset.unit;
+      const scaled = base * ratio;
+
+      let display;
+      if (unit === 'kg' || unit === 'L') {
+        display = scaled < 1 ? Math.round(scaled * 1000) + (unit === 'kg' ? ' g' : ' ml') : (Math.round(scaled * 10) / 10) + ' ' + unit;
+      } else if (unit === 'cloves' || unit === 'tbsp' || unit === 'cups' || unit === 'cup' || unit === 'pcs' || unit === 'bundles' || unit === 'head' || unit === 'large') {
+        const rounded = Math.round(scaled * 2) / 2;
+        const frac = rounded % 1 === 0.5 ? rounded - 0.5 + '½' : Math.round(rounded);
+        display = frac + ' ' + unit;
+      } else if (unit === 'g') {
+        display = Math.round(scaled) + ' g';
+      } else {
+        display = (Math.round(scaled * 10) / 10) + ' ' + unit;
+      }
+      el.textContent = display;
+    });
+  }
+
+  // smooth reveal on scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.style.opacity = '1';
+        e.target.style.transform = 'translateY(0)';
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.step, .tip-card, .ing-group').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(20px)';
+    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
